@@ -11,8 +11,8 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jamie | Personal Portfolio",
-  description: "Jamie is a frontend developer with 8 years of experience.",
+  title: "James | Personal Portfolio",
+  description: "James is a frontend developer with 8 years of experience.",
 };
 
 export default function RootLayout({
