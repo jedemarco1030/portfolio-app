@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://media.licdn.com/dms/image/D4E03AQHwYsKLjUHB1Q/profile-displayphoto-shrink_800_800/0/1669819704715?e=1715817600&v=beta&t=0LR1trlcYR51xkgpd_DfHIKHSVGQMo_UgKgMlQBlfUs"
-              alt="James DeMarco portrait"
+              alt="Jamie DeMarco portrait"
               width="192"
               height="192"
               quality="95"
@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm James.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Jamie.</span> I'm a{" "}
         <span className="font-bold">frontend developer</span> with{" "}
         <span className="font-bold">8 years</span> of experience. I enjoy
         building <span className="italic">production quality applications</span>. My focus is{" "}

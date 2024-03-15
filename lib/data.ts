@@ -81,14 +81,16 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Game Search",
+    link: "https://game-search-jd.vercel.app/",
     description:
-        "I worked on this as a side project to try out the newest features of Next JS with Tailwind. Users can search for " +
-        "games and then add them to their favorites.",
+        "This application is a side project that uses Next JS with Tailwind to allow users to search for games and " +
+        "then add them to their favorites.",
     tags: ["React", "Next.js", "Tailwind", "TypeScript", "Jest", "Storybook"],
     imageUrl: gameSearchImg,
   },
   {
     title: "Make a Payment",
+    link: "",
     description:
         "This application allows Express Scripts members to make payments online for any outstanding balances.",
     tags: ["React", "Redux", "JavaScript", "Jest", "Adobe Analytics", "SonarQube", "Launch Darkly"],
@@ -96,6 +98,7 @@ export const projectsData = [
   },
   {
     title: "Member Dashboard",
+    link: "",
     description:
         "This application allows Express Scripts members to view any information on their available refills, order status, " +
         "payment options, etc.",
@@ -104,6 +107,7 @@ export const projectsData = [
   },
   {
     title: "Conversion Framework",
+    link: "",
     description:
         "This application allows Express Scripts members to convert prescriptions from retail pick-up to home delivery by mail. ",
     tags: ["React", "Redux", "JavaScript", "Jest", "Adobe Analytics", "SonarQube", "Launch Darkly"],
