@@ -1,5 +1,6 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
+import metaFandomImg from "@/public/meta-fandom-1.png";
 import gameSearchImg from "@/public/game-search-1.png";
 import makeAPaymentImg from "@/public/make-a-payment-ui-1.png";
 import memberDashboardImg from "@/public/member-dashboard-ui-1.png";
@@ -80,6 +81,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Meta Fandom",
+    link: "https://meta-fandom.vercel.app/",
+    description:
+        "This application is a side project that uses Next JS with Tailwind to allow users to search for video games, " +
+        "Pokemon, movies, TV shows, and books as well as view more details on each result.",
+    tags: ["React", "Next.js", "Tailwind", "TypeScript", "NextAuth", "Prisma"],
+    imageUrl: metaFandomImg,
+  },
+  {
     title: "Game Search",
     link: "https://game-search-jd.vercel.app/",
     description:
@@ -126,6 +136,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
+  "NextAuth",
   "Redux",
   "GraphQL",
   "PostgreSQL",
