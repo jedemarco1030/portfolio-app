@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import profilePictureImg from "@/public/James-DeMarco-Profile-Picture.jpeg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4E03AQHwYsKLjUHB1Q/profile-displayphoto-shrink_800_800/0/1669819704715?e=1715817600&v=beta&t=0LR1trlcYR51xkgpd_DfHIKHSVGQMo_UgKgMlQBlfUs"
+              src={profilePictureImg}
               alt="Jamie DeMarco portrait"
               width="192"
               height="192"

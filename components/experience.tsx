@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { FaReact } from "react-icons/fa";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -38,7 +39,7 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={item.icon}
+              icon={<FaReact/>}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
