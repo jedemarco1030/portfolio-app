@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import metaFandomImg from "@/public/meta-fandom-1.png";
+import fandomAIImg from "@/public/fandom-ai-1.png";
 import gameSearchImg from "@/public/game-search-1.png";
 import makeAPaymentImg from "@/public/make-a-payment-ui-1.png";
 import memberDashboardImg from "@/public/member-dashboard-ui-1.png";
@@ -80,7 +81,17 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
+    {
+        title: "Fandom AI",
+        link: "https://fandom-ai.vercel.app/",
+        description:
+            "This application is a side project that uses Next JS with Tailwind and Open AI to allow users to search " +
+            "for video games, Pokemon, movies, TV shows, and books as well as view more details on each result and add " +
+            "to a list of favorites.",
+        tags: ["React", "Next.js", "Tailwind", "TypeScript", "OpenAI", "Prisma", "Python"],
+        imageUrl: fandomAIImg,
+    },
+    {
     title: "Meta Fandom",
     link: "https://meta-fandom.vercel.app/",
     description:
@@ -152,4 +163,6 @@ export const skillsData = [
   "Adobe Analytics",
   "SonarQube",
   "LaunchDarkly",
+  "OpenAI",
+  "Python",
 ] as const;
