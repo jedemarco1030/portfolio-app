@@ -19,20 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-            As a software engineer, collaborate with Product Owners, Architects, and fellow Scrum team members in an
-            Agile environment to create reusable and configurable components for products. Over 9 years of
-            experience in software engineering, with a focus on UI development and design, along with a web development
-            certificate from Ramapo College of New Jersey.
+            As a software engineer, I collaborate with product owners, architects, and fellow scrum team members in
+            an agile environment to create reusable and configurable components for the products. I have over 8 years
+            of experience in software engineering, with a focus on UI development and design. I'm also passionate
+            about creating interactive dashboards, data visualizations, and dynamic experiences that meet user needs
+            and expectations.
         </p>
         <p className="mb-3">
-            Passionate about creating interactive dashboards, data visualizations, and dynamic experiences that meet
-            user needs and expectations. Utilize React, TypeScript, Jest, UI, and UX principles to deliver high-quality
-            code, optimize performance, and ensure accessibility.
-        </p>
-        <p className="mb-3">
-            Provide leadership and proactively introduce improvements to the architecture, code, tools, pipelines, and
-            processes. Always eager to learn new skills, innovate when opportunities arise, automate when possible,
-            confront challenges head-on, and create something to be proud of.
+            I use React, TypeScript, Jest, and UI/UX principles to deliver high-quality code, optimize performance,
+            and ensure accessibility. I also provide leadership and proactively introduce improvements to our
+            architecture, code, tools, pipelines, and process. I am always eager to learn new skills, innovate when
+            opportunities arise, automate when possible, confront challenges head on, and create something that I
+            can be proud of.
         </p>
     </motion.section>
   );
